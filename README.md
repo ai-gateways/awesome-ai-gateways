@@ -171,6 +171,7 @@ Vendor-neutral guides from the [AI Gateways](https://github.com/ai-gateways#star
 - [Awesome LLMOps](https://github.com/tensorchord/Awesome-LLMOps) - Tools for running LLMs in production.
 - [Awesome MCP Gateways](https://github.com/e2b-dev/awesome-mcp-gateways) - Open source and commercial MCP gateways.
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Model Context Protocol servers.
+- [No Stairs Please MCP](https://nostairsplease.com/mcp) - Remote MCP server for searching independent US live-music venues, load-in specs, stage dimensions, and drive-time tour routing.
 
 ## Contributing
 
