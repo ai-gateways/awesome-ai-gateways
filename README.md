@@ -34,6 +34,7 @@ Gateways built for model traffic: one API in front of many providers, with routi
 - [Kunavo](https://kunavo.com/docs) - Hosted prepaid gateway with OpenAI-compatible chat completions, Anthropic-compatible Messages, streaming, and per-key usage reporting (`Proprietary`).
 - [LiteLLM](https://github.com/BerriAI/litellm) - Python SDK and proxy server that call 100+ LLM providers in the OpenAI format, with the proxy adding virtual keys, spend tracking, guardrails, load balancing, and an admin dashboard (`MIT`, `Python`).
 - [LLM Gateway](https://github.com/theopenco/llmgateway) - Gateway and dashboard that route requests to multiple LLM providers through one API, keep provider keys in one place, and track token usage and cost (`AGPL-3.0`, `TypeScript`).
+- [llm-fallback-proxy](https://github.com/zhaoxinxin463169493-sketch/llm-fallback-proxy) - MIT, zero-dependency Node.js proxy in front of any OpenAI-compatible API; retries a second provider on 429, 5xx, timeout or a dropped connection with no client code changes (`MIT`, `JavaScript`).
 - [MLflow AI Gateway](https://mlflow.org/docs/latest/genai/governance/ai-gateway/#:~:text=MLflow%27s%20AI%20Gateway%20provides%20a%20unified%20interface) - Component of the MLflow platform that gives an organization one secure endpoint for multiple LLM providers such as OpenAI and Anthropic (`Apache-2.0`, `Python`).
 - [New API](https://github.com/QuantumNous/new-api) - Self-hosted gateway with a web console that exposes OpenAI-, Claude-, and Gemini-compatible APIs over many upstream providers and manages routing, access, usage, and cost per team (`AGPL-3.0`, `Go`).
 - [Otari](https://github.com/mozilla-ai/otari) - OpenAI-compatible gateway from Mozilla.ai that routes one endpoint to 40+ providers, issues virtual keys, enforces budgets, and tracks usage (`Apache-2.0`, `Python`).
@@ -44,7 +45,6 @@ Gateways built for model traffic: one API in front of many providers, with routi
 - [Traceloop Hub](https://github.com/traceloop/hub) - LLM gateway that exposes an OpenAI-compatible API over OpenAI, Anthropic, Azure OpenAI, Vertex AI, and Bedrock and records every call as OpenTelemetry traces (`Apache-2.0`, `Rust`).
 - [TrueFoundry AI Gateway](https://www.truefoundry.com/ai-gateway) - Enterprise gateway for hundreds of models with unified governance and real-time observability, offered alongside TrueFoundry's MCP gateway and agent gateway (`Proprietary`).
 - [Vectoree](https://vectoree.ai) - Hosted OpenAI-compatible gateway for coding agents with one project key across multiple providers, plus auth, PostgreSQL and object storage, a CLI and agent skill, billed pay-as-you-go with a $5 welcome credit (`Proprietary`).
-- [llm-fallback-proxy](https://github.com/zhaoxinxin463169493-sketch/llm-fallback-proxy) - MIT, zero-dependency Node.js proxy in front of any OpenAI-compatible API; retries a second provider on 429, 5xx, timeout or a dropped connection with no client code changes.
 
 ## MCP Gateways
 
