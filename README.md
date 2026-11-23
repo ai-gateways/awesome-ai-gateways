@@ -44,6 +44,7 @@ Gateways built for model traffic: one API in front of many providers, with routi
 - [Traceloop Hub](https://github.com/traceloop/hub) - LLM gateway that exposes an OpenAI-compatible API over OpenAI, Anthropic, Azure OpenAI, Vertex AI, and Bedrock and records every call as OpenTelemetry traces (`Apache-2.0`, `Rust`).
 - [TrueFoundry AI Gateway](https://www.truefoundry.com/ai-gateway) - Enterprise gateway for hundreds of models with unified governance and real-time observability, offered alongside TrueFoundry's MCP gateway and agent gateway (`Proprietary`).
 - [Vectoree](https://vectoree.ai) - Hosted OpenAI-compatible gateway for coding agents with one project key across multiple providers, plus auth, PostgreSQL and object storage, a CLI and agent skill, billed pay-as-you-go with a $5 welcome credit (`Proprietary`).
+- [llm-fallback-proxy](https://github.com/zhaoxinxin463169493-sketch/llm-fallback-proxy) - MIT, zero-dependency Node.js proxy in front of any OpenAI-compatible API; retries a second provider on 429, 5xx, timeout or a dropped connection with no client code changes.
 
 ## MCP Gateways
 
