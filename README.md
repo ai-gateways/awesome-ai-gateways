@@ -65,6 +65,7 @@ Gateways that put many MCP servers behind one endpoint and add authentication, t
 - [Mintive](https://www.mintive.com/) - MCP gateway and LLM gateway, formerly MintMCP, that gives each agent its own identity and governs access to models and tools by role (`Proprietary`).
 - [Obot](https://github.com/obot-platform/obot) - Self-hosted AI governance platform with MCP and LLM gateways, MCP and skills registries, and isolated hosting for MCP servers (`MIT`, `Go`).
 - [Runlayer](https://www.runlayer.com) - AI control plane that routes MCP and LLM calls through one gateway and discovers agent, MCP, and skill activity across endpoints and clients (`Proprietary`).
+- [Scalekit Agent Gateway](https://www.scalekit.com/agent-gateway) - MCP gateway that serves 1,100+ maintained connectors, custom MCP servers, and internal APIs to Claude, ChatGPT, Cursor, and other clients through a scoped endpoint per team, with tool- and action-level access by role, a built-in token vault, and an audit trail of every call (`Proprietary`).
 - [ToolHive](https://github.com/stacklok/toolhive) - Platform that runs each MCP server in an isolated container, enforces identity and access policy per request, and adds observability for MCP in production (`Apache-2.0`, `Go`).
 - [Unla](https://github.com/AmoyLab/Unla) - Lightweight gateway that turns existing MCP servers and HTTP APIs into MCP endpoints through configuration, without code changes (`MIT`, `Go`).
 
